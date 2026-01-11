@@ -29,20 +29,20 @@ Materiały idealne do:
 
 ---
 
-##Zmienne
+## Zmienne
 ```js
 let nazwa = "tekst"; //zmienna przechowuje wartość tekstowa - typu string
 let liczba = 123; //zmienna przechowuje wartość liczbowa - typu int
 ```
 
-##Stałe
+## Stałe
 ```js
 const PI = 3.14; //pozwala na przechowanie stałej np. stałej matematycznej liczby π
 ```
 
 ---
 
-##Pobierane elementów strony
+## Pobierane elementów strony
 - po ID elementu:
 ```js
 document.getElementById("id") 
@@ -65,7 +65,7 @@ document.querySelector(".klasa")
 
 ---
 
-##Odczyt / zmiana tekstu
+## Odczyt / zmiana tekstu
 - innerHTML:
 ```js
 element.innerHTML = "<b>Wstawiony tekst</b>";
@@ -80,7 +80,7 @@ Różnica jest taka, że **innerHTML** pozwala na użycie znaczników HTML do ed
 
 ---
 
-##Przykład pobrania i zapisania do zmiennej
+## Przykład pobrania i zapisania do zmiennej
 - innerHTML:
 ```js
 let txt = document.getElementById("element").innerHTML;
@@ -90,7 +90,7 @@ Zapisujemy tekst z elementu o id równym **element** do zmiennej *txt*
 
 ---
 
-##Instrukcje warunkowe if / else + operatory
+## Instrukcje warunkowe if / else + operatory
 - if / else:
 ```js
 if (wiek > 18) {
@@ -108,7 +108,7 @@ if (wiek > 18) {
 
 ---
 
-##Edycja stylu w JavaScript
+## Edycja stylu w JavaScript
 - Zmiana stylu:
 ```js
 document.getElementById("element").style.border = "2px solid black";
@@ -118,7 +118,7 @@ Czyli element o id **element** bedzie miał *ciągłe* obramowanie o grubości *
 
 ---
 
-##Funkcje w JavaScript
+## Funkcje w JavaScript
 - Tworzenie:
 ```js
 function nazwa(parametry) {
@@ -133,7 +133,7 @@ nazwa();
 
 ---
 
-##Eventy / zdarzenia
+## Eventy / zdarzenia
 W HTML można spotkać:
 - onclick
 - onmouseover
@@ -154,7 +154,7 @@ document.querySelector("#btn").addEventListener("click", funkcja);
 
 ---
 
-##Formularze
+## Formularze
 - Pobranie wartości z inputa:
 ```js
 let v = document.getElementById("pole").value;
@@ -168,7 +168,7 @@ Zwraca zawsze wartość **true** lub **false** (zaznaczony lub niezaznaczony)
 
 ---
 
-##Dodawanie elementów HTML w JavaScript
+## Dodawanie elementów HTML w JavaScript
 - Tworzenie elementu:
 ```js
 let sekcja = document.createElement("section");
@@ -187,7 +187,7 @@ Pamiętaj, że ten kod dodaje naszą sekcje do kontenera o id **kontener**, któ
 
 ---
 
-##Tekst wielolinijkowy
+## Tekst wielolinijkowy
 ```js
 let msg = `Linia 1
 Linia 2
@@ -196,7 +196,7 @@ Linia 3`;
 
 ---
 
-##Pętle for i while
+## Pętle for i while
 - for:
 ```js
 for (let i = 0; i < 10; i++) {
@@ -217,7 +217,7 @@ Musimy dodać **i++**, czyli zmiane licznika, inaczej pętla nieskończona
 
 ---
 
-##Alert, prompt, confirm
+## Alert, prompt, confirm
 - alert:
 ```js
 alert("Treść");
@@ -237,7 +237,7 @@ Zwraca true lub false
 
 ---
 
-##Zaokrąglanie liczb
+## Zaokrąglanie liczb
 - Zaokrąglenie „matematyczne”:
 ```js
 Math.round(x);
@@ -255,6 +255,6 @@ Math.floor(x);
 
 ---
 
-###⚠️ Informacja
+### ⚠️ Informacja
 Notatki mają charakter **edukacyjny** i zostały przygotowane
 z myślą o nauce do egzaminu zawodowego **INF.03**.
